@@ -1,0 +1,6 @@
+C:\Users\salak401\Desktop\appveterinaria\modelo\bin\Debug\modelo.dll
+C:\Users\salak401\Desktop\appveterinaria\modelo\bin\Debug\modelo.pdb
+C:\Users\salak401\Desktop\appveterinaria\modelo\obj\Debug\modelo.csproj.AssemblyReference.cache
+C:\Users\salak401\Desktop\appveterinaria\modelo\obj\Debug\modelo.csproj.CoreCompileInputs.cache
+C:\Users\salak401\Desktop\appveterinaria\modelo\obj\Debug\modelo.dll
+C:\Users\salak401\Desktop\appveterinaria\modelo\obj\Debug\modelo.pdb
