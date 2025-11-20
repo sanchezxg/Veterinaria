@@ -8214,23 +8214,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\salak401\\.nuget\\packages\\": {},
+    "C:\\Users\\salak406\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\salak401\\Desktop\\appveterinaria\\veterinariaback\\veterinariaback.csproj",
+      "projectUniqueName": "C:\\Users\\salak406\\Desktop\\Veterinaria\\veterinariaback\\veterinariaback.csproj",
       "projectName": "veterinariaback",
-      "projectPath": "C:\\Users\\salak401\\Desktop\\appveterinaria\\veterinariaback\\veterinariaback.csproj",
-      "packagesPath": "C:\\Users\\salak401\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salak401\\Desktop\\appveterinaria\\veterinariaback\\obj\\",
+      "projectPath": "C:\\Users\\salak406\\Desktop\\Veterinaria\\veterinariaback\\veterinariaback.csproj",
+      "packagesPath": "C:\\Users\\salak406\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\salak406\\Desktop\\Veterinaria\\veterinariaback\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\salak401\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\salak406\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8246,8 +8246,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\salak401\\Desktop\\appveterinaria\\modelo\\modelo.csproj": {
-              "projectPath": "C:\\Users\\salak401\\Desktop\\appveterinaria\\modelo\\modelo.csproj"
+            "C:\\Users\\salak406\\Desktop\\Veterinaria\\modelo\\modelo.csproj": {
+              "projectPath": "C:\\Users\\salak406\\Desktop\\Veterinaria\\modelo\\modelo.csproj"
             }
           }
         }
@@ -8261,8 +8261,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -8310,7 +8309,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

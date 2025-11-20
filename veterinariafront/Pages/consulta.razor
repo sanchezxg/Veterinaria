@@ -1,0 +1,103 @@
+﻿@page "/Consulta"
+
+@inject Irepositorio repositorio
+
+
+<h3>Medicos Cosultas</h3>
+
+
+
+@if (Lista != null)
+
+{
+
+<Body>
+
+<table class="table table-striped">
+
+<thead>
+
+<tr>
+
+<th>#</th>
+
+<th>Nombre</th>
+
+<th>Categoria</th>
+
+<th>Codigo</th>
+
+<th>Acciones</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+@foreach (var medico in Lista!)
+
+{
+
+<tr>
+
+<td>
+
+<td>@medico.Id</td>
+
+<td>@medico.Nombre</td>
+
+<td>@medico.Descripcion</td>
+
+<td>@medico.Codigo</td>
+
+</td>
+
+
+</tr>
+
+}
+
+</tbody>
+
+</table>
+
+</Body>
+
+}
+
+else
+
+{
+
+<p>Iniciando carga de tipos de productos...</p>
+
+@* <div class="align-items-center">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" />
+
+</div> *@
+
+}
+
+
+@code {
+
+public List<medico>? Lista { get; set; }
+
+
+protected async override Task OnInitializedAsync()
+{
+
+        Lista = await repositorio.GetAsync<List<medico>>("api/medicos");
+
+
+}
+
+}
+
+
+
+
+
+
